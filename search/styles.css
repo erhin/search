@@ -1,0 +1,94 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+		/*
+	background-color: blue;
+	*/
+}
+
+form{
+	position: relative;
+	/*
+	background-color: blue;
+	*/
+	top: 10%;
+}
+
+
+#searchInput{
+	position: relative;
+	/*
+	background-color: blue;
+	*/
+	border: none;
+	text-align: center;
+	font-family: serif;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	border-radius: 15px;
+	width: 250px;
+	height: 50px;
+	left:50px;
+}
+
+#searchButton{
+	position: relative;
+	width: 150px;
+	height: 55px;
+	border: none;
+	border-radius: 15px;
+	top: 2px;
+	left:60px;
+}
+
+#searchButton:hover{
+	background-color: lightblue;
+	border: none;
+}
+
+
+.song{
+	width: 450px;
+	height: 70px;
+	margin: auto;
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid grey;
+	top: 60px;
+	margin-top: 3px;
+	display: none;
+}
+
+.list{
+	width:150px;
+	height: 70px;
+	border-radius: 25px;
+}
+
+.song-name{
+	position: relative;
+	top: 25px;
+	left: -10px;
+	overflow: auto;
+	float: right;
+	color: black;
+	font-family: cursive;
+}
+
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
